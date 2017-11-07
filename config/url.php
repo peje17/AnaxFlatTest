@@ -3,7 +3,7 @@
  * Config file for url.
  * The variable $this is here related to $di.
  */
-return [
+//return [
 
     // Defaults to use when creating urls.
     //"siteUrl"       => null,
@@ -13,4 +13,8 @@ return [
     //"scriptName"    => null,
     //"urlType"       => self::URL_CLEAN,
 
+//];
+
+return [
+    "urlType"       => self::URL_CLEAN,
 ];
