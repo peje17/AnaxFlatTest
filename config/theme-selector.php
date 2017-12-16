@@ -6,7 +6,7 @@
 return [
 
     "separator" => "------------------------------------------------",
-    
+
     "themes" => [
 
         "separator0" => "------------------------------------------------",
@@ -65,6 +65,14 @@ return [
             "title"      => "All fun, test and play, make it stand out!",
             "class"      => "fun",
             "stylesheets" => []
+        ],
+
+        "separator3" => "------------------------------------------------",
+
+        "vgrid"       => [
+            "title"      => "Grid",
+            "class"      => "",
+            "stylesheets" => ["css/layout.css"]
         ],
     ]
 ];

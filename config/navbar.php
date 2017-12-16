@@ -32,6 +32,20 @@ return [
                 "url"   => $this->di->get("url")->create("test"),
                 "title" => t("Test this website")
             ],
+
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("The grid"),
+                "mark-if-parent" => true,
+            ],
+
+            "typografi" => [
+                "text"  => t("Typografi"),
+                "url"   => $this->di->get("url")->create("typografi"),
+                "title" => t("Typografi"),
+                "mark-if-parent" => true,
+            ],
         ],
     ],
 
