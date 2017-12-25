@@ -46,6 +46,21 @@ return [
                 "title" => t("Typografi"),
                 "mark-if-parent" => true,
             ],
+
+
+            "theme" => [
+                "text"  => t("Theme"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Theme"),
+                "mark-if-parent" => true,
+            ],
+
+            "analysis" => [
+                "text"  => t("Analysis"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analysis"),
+                "mark-if-parent" => true,
+            ],
         ],
     ],
 
@@ -74,6 +89,34 @@ return [
                 "text"  => t("About"),
                 "url"   => $this->di->get("url")->create("about"),
                 "title" => t("About this website")
+            ],
+
+            "test" => [
+                "text"  => t("Test"),
+                "url"   => $this->di->get("url")->create("test"),
+                "title" => t("Test this website")
+            ],
+
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("The grid"),
+                "mark-if-parent" => true,
+            ],
+
+            "typografi" => [
+                "text"  => t("Typografi"),
+                "url"   => $this->di->get("url")->create("typografi"),
+                "title" => t("Typografi"),
+                "mark-if-parent" => true,
+            ],
+
+
+            "theme" => [
+                "text"  => t("Theme"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Theme"),
+                "mark-if-parent" => true,
             ],
         ],
     ],

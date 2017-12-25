@@ -23,7 +23,7 @@ return [
             "title"      => "Your own selected default theme",
             "class"      => "",
             "stylesheets" => [
-                "css/default.min.css"
+                "css/style.min.css"
             ]
         ],
 
@@ -32,31 +32,35 @@ return [
         "light"     =>  [
             "title"      => "Very light theme, white, black and nuances of grey",
             "class"      => "light",
-            "stylesheets" => []
+            "stylesheets" => [
+                "css/light-theme.min.css"
+            ]
         ],
 
         "color"     => [
             "title"      => "Enhance the light theme by adding a tiny bit of color",
             "class"      => "color",
-            "stylesheets" => []
+            "stylesheets" => [
+                "css/colour-theme.min.css"
+            ]
         ],
 
         "dark"      => [
             "title"      => "Dark background and light text",
             "class"      => "dark",
-            "stylesheets" => []
+            "stylesheets" => ["css/dark-theme.min.css"]
         ],
 
         "colorful"  => [
             "title"      => "Make a very colorful theme",
             "class"      => "colorful",
-            "stylesheets" => []
+            "stylesheets" => ["css/colourfull-theme.min.css"]
         ],
 
         "typography" => [
             "title"      => "A theme where the typography really stands out",
             "class"      => "light",
-            "stylesheets" => []
+            "stylesheets" => ["css/typhography-theme.min.css"]
         ],
 
         "separator2" => "------------------------------------------------",
