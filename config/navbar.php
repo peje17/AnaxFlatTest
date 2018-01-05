@@ -27,12 +27,6 @@ return [
                 "title" => t("About this website")
             ],
 
-            "test" => [
-                "text"  => t("Test"),
-                "url"   => $this->di->get("url")->create("test"),
-                "title" => t("Test this website")
-            ],
-
             "grid" => [
                 "text"  => t("Grid"),
                 "url"   => $this->di->get("url")->create("grid"),
@@ -61,6 +55,21 @@ return [
                 "title" => t("Analysis"),
                 "mark-if-parent" => true,
             ],
+
+            "images" => [
+                "text"  => t("Images"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("Images"),
+                "mark-if-parent" => true,
+            ],
+
+            "blogg" => [
+                "text"  => t("Blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("Blogg"),
+                "mark-if-parent" => true,
+            ],
+
         ],
     ],
 

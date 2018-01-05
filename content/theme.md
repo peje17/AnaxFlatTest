@@ -20,3 +20,6 @@ Ett komplementärt schema med utgångspunkt i den gula färgen jag började med,
 I Adobe color väljer jag triad färger och hamnar på gul-cyan-lila ... kanske inte de färger jag naturligt skulle välja för en webb-sida. Jag flyttar sparken till nyanser jag kan leva med och väljar då dem. Är egentligen lite förundrat att "teorien" tycker att dessa färger fungerar tillsammans.
 
 ![Colour-Tema] (img/colourfull-theme.jpg)
+
+## Typografi Teman
+Vid val av typografi, har jag egentligen endast fokuserat på att få något annorlunda. Annorlunda betyder förstås att man söker en hand-written style, och efter att ha kollat genom Google’s fonter bestämde jag mig för Pangolin, som jag tycker är läsbar samtidig som det ju är en handwritten stil. Sedan kollade jag igenom Googles serif typsnitt för att hitta någon stil som kunna passa ihop med Pangolin. Jag föll för Junge, som jag tycker är lite lekfull samtidig som den är full läsbar.
