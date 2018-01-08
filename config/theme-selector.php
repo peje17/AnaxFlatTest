@@ -65,18 +65,42 @@ return [
 
         "separator2" => "------------------------------------------------",
 
-        "fun"       => [
-            "title"      => "All fun, test and play, make it stand out!",
-            "class"      => "fun",
-            "stylesheets" => []
-        ],
-
-        "separator3" => "------------------------------------------------",
-
         "vgrid"       => [
             "title"      => "Grid",
             "class"      => "",
             "stylesheets" => ["css/layout.css"]
+        ],
+
+        "separator3" => "------------------------------------------------",
+
+        "designtheme01"       => [
+            "title"      => "Designtheme 1",
+            "class"      => "",
+            "stylesheets" => ["css/designtheme01.min.css"]
+        ],
+
+        "designtheme02"       => [
+            "title"      => "Designtheme 2",
+            "class"      => "",
+            "stylesheets" => ["css/designtheme02.min.css"]
+        ],
+
+        "designtheme03"       => [
+            "title"      => "Designtheme 3",
+            "class"      => "",
+            "stylesheets" => ["css/designtheme03.min.css"]
+        ],
+
+        "designtheme04"       => [
+            "title"      => "Designtheme 4",
+            "class"      => "",
+            "stylesheets" => ["css/designtheme04.min.css"]
+        ],
+
+        "designtheme05"       => [
+            "title"      => "Designtheme 5",
+            "class"      => "",
+            "stylesheets" => ["css/designtheme05.min.css"]
         ],
     ]
 ];

@@ -70,6 +70,14 @@ return [
                 "mark-if-parent" => true,
             ],
 
+            "design-element" => [
+                "text"  => t("Design"),
+                "url"   => $this->di->get("url")->create("design-element"),
+                "title" => t("design-element"),
+                "mark-if-parent" => true,
+            ],
+
+
         ],
     ],
 
